@@ -18,9 +18,7 @@ containing positive sentences. The dataset is split into train/test with a 90/10
 
 2. **Model Building**
     1. A dictionary of words from the dataset is created and the occurrences of each word in each class (positive and
-       negative) are counted.
-    2. Words that occur less than a minimum threshold and more than a maximum threshold are discarded to avoid taking
-       special or general words into account.
+       negative) are counted. Words that occur less than a minimum threshold and more than a maximum threshold are discarded to avoid taking special or general words into account.
     3. A dictionary of word pairs and their occurrences is created for the bigram model.
 
 3. **Probability Calculation**
