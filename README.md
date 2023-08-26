@@ -1,6 +1,6 @@
 ## N-gram-Sentiment-Analysis
 
-This project in trains n-gram models from scratch for sentence polarity detection.
+This project trains n-gram models from scratch for sentence polarity detection.
 The goal is to determine whether an input sentence is positive or negative.
 
 The complete project description can be found in [instructions.pdf](docs/instructions.pdf)
@@ -50,7 +50,7 @@ containing positive sentences. The dataset is split into train/test with a 90/10
 | 0.1 | 0.2 | 0.7 | 0.3 | yes     | 0.602    | 0.408 | 0.631    | 0.640 |
 | 0.1 | 0.1 | 0.8 | 0.3 | yes     | 0.616    | 0.445 | 0.659    | 0.675 |
 
-The cutoff column indicates whether least and most common words were discarded or not.
+The cutoff column indicates whether the least and most common words were discarded or not.
 
 ### Run:
 
